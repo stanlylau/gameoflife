@@ -1,3 +1,4 @@
+const { count_neighbours } = require("./countNeighbours");
 
 
 const game_of_life = list_of_positions => {
