@@ -1,4 +1,6 @@
-const game_of_life = a_list_of_alive_position => {};
+const game_of_life = (board) => {
+
+}
 
 module.exports = game_of_life;
 
