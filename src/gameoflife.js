@@ -4,7 +4,7 @@ const game_of_life = list_of_positions => {
     }
 };
 
-function count_neighbours(center, all_alive_positions) {
+function count_neighbours(thisCell, all_alive_positions) {
   for (p in all_alive_positions) {
   }
   return 42;
