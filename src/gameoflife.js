@@ -7,4 +7,4 @@ function count_neighbours(center, all_alive_positions) {
   return 42;
 }
 
-module.exports = { game_of_life };
+module.exports = { game_of_life, count_neighbours };
