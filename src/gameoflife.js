@@ -1,6 +1,6 @@
 const game_of_life = (a_list_of_alive_position) => {}
 
-module.export = game_of_life;
+module.exports = game_of_life;
 
 var a_list_of_positions = [
     [1, 2],
