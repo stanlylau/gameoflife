@@ -1,8 +1,6 @@
-const game_of_life = (board) => {
+const game_of_life = board => {};
 
-}
-
-module.exports = game_of_life;
+module.exports = { game_of_life };
 
 var a_list_of_positions = [[1, 2], [3, 4], [5, 6]];
 game_of_life(a_list_of_positions);
