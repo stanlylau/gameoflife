@@ -2,7 +2,7 @@
 
 ## Limbo Loop
 
-    $ while true; do git pull --rebase; git push; done
+    $ ./limbo.sh
 
 ## Developer list
 
