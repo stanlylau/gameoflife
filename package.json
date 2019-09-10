@@ -18,5 +18,10 @@
   "homepage": "https://github.com/stanlylau/gameoflife#readme",
   "dependencies": {
     "jest": "^24.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/register": "^7.6.0"
   }
 }
