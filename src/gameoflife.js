@@ -1,6 +1,8 @@
 const game_of_life = a_list_of_positions => {};
 
 function count_neighbours(center, all_alive_positions) {
+  for (p in all_alive_positions) {
+  }
   return 42;
 }
 
