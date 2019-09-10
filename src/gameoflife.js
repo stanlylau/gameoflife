@@ -10,7 +10,7 @@ function count_neighbours(thisCell, all_alive_positions) {
   return 42;
 }
 
-//TODO: What Happens to Cell?
+// TODO: What Happens to Cell?
 
 // TODO: Should Die
 
