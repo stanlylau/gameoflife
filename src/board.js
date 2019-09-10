@@ -1,6 +1,6 @@
 function create_board() {
   return {
-    count_neighbours: function() {}
+    get_neighbours: function() {}
   };
 }
 
