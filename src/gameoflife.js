@@ -5,10 +5,7 @@ const game_of_life = list_of_positions => {
   if (list_of_positions != null) {
     list_of_positions.map(pos => {
       const count = count_neighbours(pos, list_of_positions);
-      if (2 === count) {
-        result.push(pos);
-      }
-      if (3 === count) {
+      if (2 === count || 3 === count) {
         result.push(pos);
       }
       neighbours(pos).map((probably_dead)=>{
