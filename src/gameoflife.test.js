@@ -1,4 +1,4 @@
-const { game_of_life } = require("./gameoflife");
+const { game_of_life, count_neighbours } = require("./gameoflife");
 
 it("abc", () => {
   expect(1).toEqual(1);
