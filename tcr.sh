@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-npm test && git add . && git commit -ma "working" # || (git clean -fx; git reset --hard)
+npm test && git commit -am "working" || git reset --hard
