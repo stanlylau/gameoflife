@@ -1,4 +1,8 @@
-const game_of_life = a_list_of_positions => {};
+const game_of_life = list_of_positions => {
+    if(list_of_positions != null){
+        list_of_positions.map(item => console.log(item));
+    }
+};
 
 function count_neighbours(center, all_alive_positions) {
   for (p in all_alive_positions) {
