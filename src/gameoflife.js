@@ -22,8 +22,4 @@ const game_of_life = list_of_positions => {
 
 // TODO: Should Live
 
-function parseBoard(str) {
-  return str;
-}
-
 module.exports = { game_of_life };
