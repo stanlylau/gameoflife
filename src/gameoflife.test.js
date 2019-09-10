@@ -9,3 +9,7 @@ describe("count neighbours", () => {
     //game_of_life.count_neighbours
   });
 });
+
+test.skip("Parse game board", () => {
+  expect(`x`).toEqual('x');
+});
