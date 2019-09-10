@@ -1,4 +1,4 @@
-const { game_of_life } = require("./gameoflife");
+const game_of_life = require("./gameoflife");
 
 it("abc", () => {
   expect(1).toEqual(1);
@@ -12,5 +12,5 @@ describe("count neighbours", () => {
 });
 
 test.skip("Parse game board", () => {
-  expect(`x`).toEqual('x');
+  expect(`x`).toEqual("x");
 });
