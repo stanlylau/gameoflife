@@ -10,6 +10,10 @@ function count_neighbours(center, all_alive_positions) {
   return 42;
 }
 
+// TODO: Should Die
+
+// TODO: Should Live
+
 function parseBoard(str) {
   return str;
 }
