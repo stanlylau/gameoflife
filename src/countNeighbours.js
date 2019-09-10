@@ -3,3 +3,5 @@ function count_neighbours(thisCell, all_alive_positions) {
     }
     return 42;
   }
+
+module.exports = { count_neighbours };
