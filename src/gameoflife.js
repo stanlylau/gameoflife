@@ -19,10 +19,4 @@ const game_of_life = list_of_positions => {
   return result;
 };
 
-// TODO: What Happens to Cell?
-
-// TODO: Should Die
-
-// TODO: Should Live
-
 module.exports = { game_of_life };
