@@ -2,7 +2,6 @@ const { x, game_of_life, count_neighbours } = require("./gameoflife");
 
 it("abc", () => {
   expect(1).toEqual(1);
-  console.log(x);
 });
 
 describe("count neighbours", () => {
