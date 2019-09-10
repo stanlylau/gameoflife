@@ -11,6 +11,9 @@ const game_of_life = list_of_positions => {
         result.push(pos);
       }
       neighbours(pos).map(()=>{
+        if (3 === count_neighbours(pos, list_of_positions)) {
+          result.push(pos);
+        }
       });
     });
   }
