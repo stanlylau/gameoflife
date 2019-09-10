@@ -10,6 +10,7 @@ const game_of_life = list_of_positions => {
       if (3 === count_neighbours(pos, list_of_positions)) {
         result.push(pos);
       }
+      neighbours;
     });
   }
 
