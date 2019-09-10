@@ -1,5 +1,6 @@
 function parseBoard(str) {
-  return [[0,0]];
+  if (str.trim() === '') return [];
+  else return [[0,0]];
 }
 
 module.exports = { parseBoard };
