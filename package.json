@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/stanlylau/gameoflife#readme",
   "dependencies": {
+    "esm": "^3.2.25",
     "jest": "^24.9.0"
   },
   "devDependencies": {
