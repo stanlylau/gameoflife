@@ -1,7 +1,7 @@
 function count_neighbours(thisCell, all_alive_positions) {
-    for (p in all_alive_positions) {
-    }
-    return 42;
+  for (p in all_alive_positions) {
   }
+  return 42;
+}
 
 module.exports = { count_neighbours };
