@@ -6,7 +6,8 @@ it("abc", () => {
 
 describe("count neighbours", () => {
   it("empty", () => {
-    //game_of_life.count_neighbours
+    expect("game").not.toBeUndefined();
+    //expect(game_of_life.count_neighbours).toEqual(42);
   });
 });
 
