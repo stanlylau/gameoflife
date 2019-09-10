@@ -4,7 +4,8 @@ const game_of_life = list_of_positions => {
   var result = [];
   if (list_of_positions != null) {
     list_of_positions.map(pos => {
-      if (2 === count_neighbours(pos, list_of_positions)) {
+      const count = count_neighbours(pos, list_of_positions);
+      if (2 === count) {
         result.push(pos);
       }
       if (3 === count_neighbours(pos, list_of_positions)) {
