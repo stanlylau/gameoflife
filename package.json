@@ -1,0 +1,22 @@
+{
+  "name": "gameoflife",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanlylau/gameoflife.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stanlylau/gameoflife/issues"
+  },
+  "homepage": "https://github.com/stanlylau/gameoflife#readme",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
